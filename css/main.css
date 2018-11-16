@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:5px;
+    font-family: 'Microsoft YaHei';
+}
+.header{
+    top:0;
+    padding:10px;
+    height:40px;
+    background-color:rgb(41,42,51);
+    color:#FFFFFF;
+}
+.info{
+    width:460px;
+    float:left;
+}
+.info img{
+    margin-right: 10px;
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.info .name{
+    height:40px;
+    vertical-align: middle;
+}
+/*
+vertical-align对块状水平的元素无感
+*/
+.followers,.following{
+    width:150px;
+    line-height: 40px;
+    float:left;
+}
+ .followers span,.following span{
+     color:darkgray;
+ }
+
+ .icon{
+     height: 40px;
+     width:40px;
+     float:right;
+ }
+
+ .icon span{
+     cursor:pointer;
+     font-size:24px;
+     line-height:40px;
+
+ }
+.sidebar {
+    background-color: #FFFFFF;
+    padding-top:100px;
+    position: fixed;
+    top:60px;
+    right:0;
+    width:0;
+    height:100%;
+  }
+.sidebar li{
+    text-decoration: none;
+    list-style:none;
+
+}
+.sidebar a{
+    display:block;
+    height:30px;
+    line-height: 30px;
+    width:240px;
+    text-align: center;
+}
+.sidebar a:link{
+    text-decoration: none;
+}
+.sidebar a:hover{
+    background:lightslategray;
+}
+ .icon:hover .sidebar{
+     width:240px;
+
+ }
+ .clear{
+     clear:both;
+ }
+.wapper{
+    width:980px;
+    margin:0 auto;
+
+}
+.box{
+    justify-content:space-around;
+     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box .flex-item{
+    flex:0 0 30%;
+    margin-top:20px;
+    background: darkgray;
+     width:300px;
+     height:300px;
+
+}
+.main{
+    background-color: rgba(233,233,233,0.5);
+}
