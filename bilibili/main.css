@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family: "Microsoft YaHei";
+    color:black;
+
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height:170px;
+    background:rgba(255,147,100,0.64);
+}
+.nav{
+    position: relative;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.wrapper{
+
+
+    max-width: 1100px;
+    min-width: 1055px;
+    margin:0 auto;
+
+}
+.nav .left{
+    width:500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .right{
+    margin-right: 60px;
+}
+.wrapper ul{
+    display:flex;
+}
+.wrapper ul li{
+    list-style-type: none;
+}
+.left li a,.right li a{
+    display:block;
+    padding:11.5px;
+}
+.button{
+    border-radius: 10%;
+    background-color:rgba(255,114,175,0.92);
+     position:absolute;
+    top:0;
+    right:0;
+    width:56px;
+    height:45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.send{
+    cursor: pointer;
+    padding-top: 11.5px;
+    color:#ffffff;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.button:hover{
+    background-color: rgba(255,114,175,0.8);
+
+}
+.button:hover ul{
+    display:flex;
+}
+.button ul{
+    position: absolute;
+    display: none;
+    width:360px;
+    height:60px;
+    bottom:-60px;
+    right:0;
+
+
+}
+.button ul li{
+    flex:0 1 20%;
+    list-style-type: none;
+}
+.button ul li a{
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    color:#ff72af;
+    background-color: white;
+    letter-spacing: 0px;
+
+
+}
+.nav-top{
+    background-color:rgba(255,255,255,0.28);
+    height:40px;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+}
+.main-nav ul{
+    display: flex;
+}
+.main-nav ul li{
+    list-style-type: none;
+}
+.main-nav ul li a{
+    padding: 13px;
+}
+.main{
+    display: flex;
+    height:225px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main .swiper{
+    border-radius:2%;
+    flex:0 1 42%;
+    background-color: #ff72af;
+}
+.main .flex-box{
+    position: relative;
+    display: flex;
+    flex:0 1 56%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+.main .flex-box:hover .yestoday{
+    display: block;
+}
+.main .flex-box .yestoday{
+    display: none;
+    cursor:pointer;
+    background-color: burlywood;
+    width:30px;
+    height:60px;
+    position:absolute;
+    left:0;
+    top:80px;
+}
+.main .flex-box .yestoday span{
+    letter-spacing: 5px;
+    vertical-align: top;
+    writing-mode:vertical-lr;
+
+}
+.main .flex-box .week{
+    width:30px;
+    height:60px;
+    position:absolute;
+    right:0;
+    top:80px;
+}
+.main .flex-box .flex-item{
+    border-radius: 4%;
+    height:102px;
+    margin-bottom: 20px;
+    width:192px;
+    background-color: #ff72af;
+}
+.popular .content{
+    margin-bottom: 40px;
+    height:210px;
+    display:flex;
+    justify-content: space-between;
+}
+.popular .content .left{
+    width:850px;
+    background-color: cadetblue;
+}
+.popular .content .right{
+    width:226px;
+    background-color: cadetblue;
+}
+#sidebar{
+    position: fixed;
+    left:1270px;
+    top:230px;
+}
+#sidebar ul{
+    overflow: hidden;
+    border:1px solid #e5e9ef;
+    text-align: center;
+    border-radius:4px
+}
+#sidebar ul li{
+    list-style-type: none;
+
+}
+#sidebar ul li:hover a{
+    color: #ffffff;
+    background-color: cornflowerblue;
+}
+#sidebar ul li a{
+    background-color:#f6f9fa;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    height:30px;
+    width:48px;
+    line-height:30px;
+}
+
